@@ -5,6 +5,8 @@
  */
 package pizzeria;
 
+import java.util.Scanner;
+
 /**
  *
  * @author juan camilo
@@ -16,6 +18,19 @@ public class Principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-           }
-    
+        ClientesRegistro cl=new ClientesRegistro();
+        Scanner entradaEscaner = new Scanner(System.in);
+        int cc = entradaEscaner.nextInt();
+        cl.registroClienteNuevo(cc);
+//        cl.imprimirClientesFrecuentes();
+//        int cc=42868292;
+//        cl.validarCF(cc);
+//        if(cl.validarCF(cc) == true){
+//            System.out.println("Existe");
+//        }else
+//        {
+//            System.out.println("No Existe");
+//        }
+    }
+
 }
