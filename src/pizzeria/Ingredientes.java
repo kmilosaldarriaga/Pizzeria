@@ -11,4 +11,8 @@ package pizzeria;
  */
 public class Ingredientes {
     
+    public void imprimirMenuIngredientes(){
+        
+    }
+    
 }
